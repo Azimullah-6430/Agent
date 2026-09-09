@@ -2,7 +2,6 @@ import re
 import urllib.parse
 import urllib.request
 
-
 def get_vid(query):
 
     try:
@@ -34,7 +33,6 @@ def get_vid(query):
 
     except Exception:
         return None
-
 
 def create_youtube_url(command):
 
