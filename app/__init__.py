@@ -25,6 +25,11 @@ def create_app():
     @app.route("/")
     def home():
         return render_template("index.html")
+        
+    # HTML
+    @app.route("/html")
+    def html():
+        return render_template("index.html")
 
     # Health
     @app.route("/health")
